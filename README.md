@@ -1,16 +1,37 @@
-# React + Vite
+# Scroll-Driven Hero Section Animation
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This project is a visually striking, scroll-driven hero section animation built as an assignment. It features a premium, sleek automotive UI where the animation is strictly tied to the user's scroll progress, creating a highly interactive and fluid web experience.
 
-Currently, two official plugins are available:
+## 🔗 Project Links
+- **Live Demo:** [Insert your Vercel/Netlify Live Link Here]
+- **GitHub Repository:**https://github.com/rajdeep372/scroll-driven-hero-animation.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack Used
+- **Frontend Framework:** React.js (Vite)
+- **Styling:** Tailwind CSS
+- **Animation Library:** GSAP (GreenSock Animation Platform)
+- **Scroll Interaction:** GSAP ScrollTrigger Plugin
 
-## React Compiler
+## ✨ Key Features
+- **Smooth Initial Load:** Staggered fade-in animations for the typography and statistics on component mount.
+- **Scroll-Linked Motion (`scrub: 1`):** The car translates smoothly across the screen strictly based on scroll position—no time-based auto-playing.
+- **Pinned Section (`pin: true`):** The hero section remains fixed in the viewport while scrolling through the container to create a cinematic parallax effect.
+- **Performance Optimized:** Uses only CSS transform properties (`translateX`, `opacity`) to ensure buttery-smooth 60fps animations without layout reflows.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 How to Run Locally
 
-## Expanding the Oxlint configuration
+1. Clone the repository:
+   ```bash
+   git clone [Insert your GitHub Repo Link Here]
+Navigate to the project directory:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Bash
+cd scroll-driven-hero-animation
+Install dependencies:
+
+Bash
+npm install
+Start the development server:
+
+Bash
+npm run dev
