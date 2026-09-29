@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .will-change-transform {
+    will-change: transform;
+  }
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
