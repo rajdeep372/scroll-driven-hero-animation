@@ -24,14 +24,10 @@ https://scroll-driven-hero-animation-five.vercel.app/
    ```bash
    git clone https://github.com/rajdeep372/scroll-driven-hero-animation.git
 Navigate to the project directory:
-
-Bash
 cd scroll-driven-hero-animation
+
 Install dependencies:
-
-Bash
 npm install
-Start the development server:
 
-Bash
+Start the development server:
 npm run dev
