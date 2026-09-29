@@ -6,7 +6,7 @@ This project is a visually striking, scroll-driven hero section animation built 
 - Live Demo:
 https://scroll-driven-hero-animation-five.vercel.app/ 
 - GitHub Repository:https://github.com/rajdeep372/scroll-driven-hero-animation.git
-## 🛠️ Tech Stack Used
+##  Tech Stack Used
 - **Frontend Framework:** React.js (Vite)
 - **Styling:** Tailwind CSS
 - **Animation Library:** GSAP (GreenSock Animation Platform)
