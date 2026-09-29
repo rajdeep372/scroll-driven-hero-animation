@@ -22,7 +22,7 @@ https://scroll-driven-hero-animation-five.vercel.app/
 
 1. Clone the repository:
    ```bash
-   git clone [Insert your GitHub Repo Link Here]
+   git clone https://github.com/rajdeep372/scroll-driven-hero-animation.git
 Navigate to the project directory:
 
 Bash
